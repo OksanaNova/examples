@@ -27,7 +27,7 @@ function LessonReducer () {
 
 
     return (
-        <div>
+        <div className="container">
             <p>ЗНАЧЕНИЕ: { count.firstCounter }</p>
 
             <button onClick={ () => dispatch({ type: 'increment', value: 2}) } >УВЕЛИЧИТЬ НА 2</button>

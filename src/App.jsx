@@ -1,5 +1,6 @@
 import './App.css'
 import LessonReducer from './LessonReducer';
+import TwoReducers from './TwoReducers';
 
 function App() {
  
@@ -8,6 +9,8 @@ function App() {
     <>
 
     <LessonReducer />
+
+    <TwoReducers />
 
     </>
   )
