@@ -4,6 +4,7 @@ import MyBlock from './MyBlock';
 import TwoReducers from './TwoReducers';
 import React from 'react';
 import { useState } from 'react';
+import MySecondBlock from './MySecondBlock';
 
 export const ColorContext = React.createContext()
 
@@ -28,6 +29,7 @@ function App() {
     <ColorContext.Provider value={myColor}>
         <button onClick={changeColor}>SWITCH COLORS</button>
         <MyBlock />
+        <MySecondBlock />
     </ColorContext.Provider>
 
 
